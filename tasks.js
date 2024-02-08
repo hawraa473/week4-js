@@ -27,7 +27,7 @@
   
     //Task 3
   function printEvenNumbersWithFor (){
-      for (let i = 2; i <= 11; i += 2) {
+      for (var i = 2; i <= 11; i += 2) {
       console.log(i);
   }
   }
@@ -46,7 +46,10 @@
     case 2:
       dayName = "Monday";
       break;
-    // Add cases for other days...
+      case 3: dayName = "Tuesday" ;
+      break;
+      case 4: dayName = "Wednesday" ;
+      break ;
     default:
       dayName = "Invalid day";
   }
