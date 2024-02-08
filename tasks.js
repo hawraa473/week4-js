@@ -1,11 +1,13 @@
 // Task 1
-var myAge = 18
+function checkVotingEligibility() {
+  var myAge = 18
 if ( myAge => 18 ) {
 console.log( "You are eligible for voting,") ;
 } else { 
 console.log( "You are not eligible for voting." ) ; 
 }
-
+}
+checkVotingEligibility();
 
 
 // Task 2
