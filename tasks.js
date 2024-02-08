@@ -16,6 +16,7 @@ console.log(i);
  i++;
 } 
 }
+printNumbersWithWhile();
 
 
 // Task 3
@@ -25,7 +26,7 @@ function printEvenNumbersWithFor(i) {
   console.log( i );
  }
  }
-
+printEvenNumbersWithFor();
 
 // Task 4
 function getDayOfWeek() { 
@@ -54,25 +55,17 @@ console.log ( ' Friday ')
 break;  
 }
 }
-
+getDayOfWeek();
 // Task 5
 function sum( ) { 
   var a= 'Zahraa' ;
   var b= " Hawraa " ;
 console.log( a + b ) ;
 } 
- 
+ sum();
 
 // Task 6
 //Uncomment and solve
 var fruits = [ 'orange'  , 'apple' , 'banana' ] ;
 console.log( fruits ) ;
-
-module.exports = {
-  checkVotingEligibility,
-  printNumbersWithWhile,
-  printEvenNumbersWithFor,
-  getDayOfWeek,
-  sum,
-  fruits,
-};
+fruits 
