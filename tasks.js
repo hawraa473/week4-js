@@ -73,4 +73,5 @@
   
   
   
-  
+ // students = [ 'hawraa' , 'fatima' , 'fatima' ]
+  //console.log( ...students);
